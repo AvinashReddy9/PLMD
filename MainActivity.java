@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         senSensorManager =(SensorManager)getSystemService(Context.SENSOR_SERVICE);
         senAccelerometer= senSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+ Hello world;
 
 
     }
