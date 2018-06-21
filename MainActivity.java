@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private long lastUpdate = 0;
     private float last_x, last_y, last_z;
     private static final int SHAKE_THRESHOLD = 600;
+Hello there;
+Java new version;
 
 
     @Override
